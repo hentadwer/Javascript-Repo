@@ -1,1 +1,1 @@
-alert("run test javascript");
+alert("run, javascript");
