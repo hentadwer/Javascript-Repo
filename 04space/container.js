@@ -8,5 +8,5 @@ c += 10;
 var x = true;
 var z = false;
 
-var name = prompt("what is your name");
-alert("hello," + name);
+var name = prompt("what is your \n name");
+alert("hello, " + name);
