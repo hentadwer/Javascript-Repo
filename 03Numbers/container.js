@@ -1,3 +1,4 @@
+// this a chain when var A, print the final Value insert. 
 var a;
 a = 5;
 a = 25;
