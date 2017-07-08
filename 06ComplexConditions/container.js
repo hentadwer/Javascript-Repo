@@ -1,4 +1,7 @@
 // the section is for example use check balance credit bank founds whit complex conditions in Javascript
+/* The structure is only used per test and is not recommended for general use, 
+because there are better control structures in programming to differentiate values.
+*/
 var balance = 15000;
 
 if (balance >= 0) {
