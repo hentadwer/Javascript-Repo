@@ -1,11 +1,20 @@
-// example for use condition IF in Java Script 
-var a = 5; 
-var b = 10;
+// example for use operator equality in Java Script non strict == and strict ===
 
-if (a < b) {
-  alert("They are not the same");
-}
+var a = 123;
+var b = "123";
+
+// comprobation of equality non strict
 
 if (a == b) {
-  alert("If they are the same");
+  alert("if equality");
+} else {
+  alert("not equality");
+}
+
+// comprobation of equality very strict, evaluate value of the variable
+
+if (a === b) {
+  alert("if equality");
+} else {
+  alert("not equality");
 }
