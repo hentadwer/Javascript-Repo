@@ -1,14 +1,7 @@
-// the section is for example use check balance credit bank founds whit complex conditions in Javascript
-/* The structure is only used per test and is not recommended for general use, 
-because there are better control structures in programming to differentiate values.
-*/
-var balance = 15000;
+// the control structure switch help to compare many values in only one 
+// you are can add cases for comparation whit the structure switch
+// in the example i use fuel to compare priece and type 
 
-if (balance >= 0) {
-  alert("the balance is positive");
-  if (balance > 1000 ) {
-    alert("the balance is very big")
-  }
-} else {
-  alert("the balance is negative");
+switch (fuel) {
+
 }
