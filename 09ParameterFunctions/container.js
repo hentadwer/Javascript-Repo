@@ -1,20 +1,10 @@
-// this section is a making simple function for javascript 
+// this fuction is a easy method to sum two numbers
 
-function myScript () {
-  var a = 20;
-  var b = 80;
-  var c = 32;
-  var d = 10;
-  var e = a + b + c + d;
-  alert ("the value is equal to : " + e);
-}
+ function sum(a,b) {
+   var result = a + b;
+   return result;
+ }
 
-myScript();
+ var sumup (12,14);
 
-// this code function can call function any times Example:
-/*
-myScript();
-myScript();
-myScript();
-*/
-// the function execute three times the script menssage in the screen view.
+ alert(sumup);
