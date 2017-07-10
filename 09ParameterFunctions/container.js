@@ -5,6 +5,6 @@
    return result;
  }
 
- var sumup (12,14);
+ var sumup = sum (12,14);
 
  alert(sumup);
