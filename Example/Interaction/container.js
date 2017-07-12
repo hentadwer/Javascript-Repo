@@ -1,13 +1,13 @@
 /* this exercise is to explain the 
 interaction metod or search in to a matrix
 */
-var a = 5;
-var b = 10;
+var colection = [100, 100, 100, 100, 100, 100, 100];
 
-if (a < b) {
-    alert("They are not the same");
-}
+var total = 0;
 
-if (a == b) {
-    alert("If they are the same");
+for (var i = 0; i < colection.length; i++) {
+    // Add the actual value to the total value.
+    total = total + colection[i];
 }
+// exit blucle 
+alert("the total value is:" + total);
